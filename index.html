@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Diriku | Silfi Nia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>✨ Portofolio Diriku ✨</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('bio')">Biodata</a></li>
+                <li><a href="#" onclick="showPage('projects')">Program</a></li>
+                <li><a href="#" onclick="showPage('contact')">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+    </header>
+
+    <main>
+        <!-- Halaman Biodata -->
+        <section id="bio" class="page active">
+            <h2>Tentang Diriku</h2>
+            <p>Halo! Aku <b>Silfi Nia</b> 🌸, seorang mahasiswa yang tertarik pada <i>teknologi dan inovasi</i>. Aku
+                suka mengeksplor hal baru terutama dunia pemrograman, pengembangan web, dan bagaimana teknologi bisa
+                membantu orang lain.
+                Aku pernah membuat berbagai proyek mulai dari aplikasi berbasis web hingga program logika fuzzy
+                sederhana.
+                Aku percaya bahwa setiap baris kode bisa membawa perubahan kecil bagi dunia 🌍.</p>
+        </section>
+
+        <!-- Halaman Program -->
+        <section id="projects" class="page">
+            <h2>Program yang Pernah Aku Buat 💻</h2>
+            <div class="project-card">
+                <h3>NusaData</h3>
+                <p>Web untuk membantu warga mencari data penduduk di instansi dengan cepat dan efisien.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>KosFood</h3>
+                <p>Website berbagi resep hemat untuk anak kos agar tetap bisa makan enak walau di perantauan 🍜.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Fuzzy Tsukamoto</h3>
+                <p>Program Python berbasis logika fuzzy untuk menentukan keputusan berdasarkan input pengguna.</p>
+            </div>
+        </section>
+
+        <!-- Halaman Kontak -->
+        <section id="contact" class="page">
+            <h2>Hubungi Aku ☎️</h2>
+            <p>Kamu bisa menghubungiku lewat platform berikut:</p>
+            <ul class="contact-list">
+                <li>📧 Email: <a href="mailto:silfinia@gmail.com">silfinia@gmail.com</a></li>
+                <li>🐙 GitHub: <a href="https://github.com/silfinia" target="_blank">github.com/silfinia</a></li>
+                <li>📷 Instagram: <a href="https://instagram.com/silfinia" target="_blank">@silfinia</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Silfi Nia | Dibuat dengan 💖 & semangat belajar</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
