@@ -15,7 +15,7 @@ Akses di browser: [http://localhost:8080](http://localhost:8080)
 Kamu bisa menggunakan layanan seperti:
 - [Render](https://render.com)
 - [Railway](https://railway.app)
-- [GitHub Pages (tanpa Docker)]
+- [GitHub Pages (tanpa Docker) disini saya menggunakan github pages]
 - [Netlify (untuk versi statis)]
 
 ## 📁 Struktur Folder
